@@ -1,0 +1,18 @@
+track Active_interactions
+bigDataUrl Act_int_for_UCSC_Browser.bb
+shortLabel ActInt
+longLabel hmsLRI Active
+type bigInteract
+interactDirectional true
+visibility full
+description Active Interactions 
+
+track Poised_interactions
+bigDataUrl Poi_int_for_UCSC_Browser.bb
+shortLabel ActInt
+longLabel hmsLRI Poised
+type bigInteract
+interactDirectional true
+visibility full
+description Poised Interactions 
+

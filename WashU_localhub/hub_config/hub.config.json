@@ -1,0 +1,80 @@
+[
+
+{
+    "type": "categorical",
+    "name": "Zarrei_CNV",
+    "filename": "washU_zarrei.sorted.bed.gz",
+    "options": {
+        "height": 20,
+        "maxRows": 6,
+        "category": {
+            "category1": {"name": "ASD", "color": "#e33e1a"},
+            "category2": {"name": "ASD", "color": "#1a1ae3"},
+            "category3": {"name": "ASD", "color": "#07f24e"},
+            "category4": {"name": "ADHD", "color": "#e33e1a"},
+            "category5": {"name": "ADHD", "color": "#1a1ae3"},
+            "category6": {"name": "ADHD", "color": "#07f24e"},
+            "category7": {"name": "OCD", "color": "#e33e1a"},
+            "category8": {"name": "OCD", "color": "#1a1ae3"},
+            "category9": {"name": "OCD", "color": "#07f24e"},
+            "category10": {"name": "SCZ", "color": "#e33e1a"},
+            "category11": {"name": "SCZ", "color": "#1a1ae3"},
+            "category12": {"name": "SCZ", "color": "#07f24e"},
+            "category13": {"name": "CTRL", "color": "#e33e1a"},
+            "category14": {"name": "CTRL", "color": "#1a1ae3"},
+            "category15": {"name": "CTRL", "color": "#07f24e"}
+        }
+    }
+},
+{
+    "type": "categorical",
+    "name": "Coe_CNV",
+    "filename": "washU_Coe.sorted.bed.gz",
+    "options": {
+        "height": 20,
+        "maxRows": 6,
+        "category": {
+            "gainCTRL": {"name": "CTRL", "color": "#1a1ae3"},
+            "lossCTRL": {"name": "CTRL", "color": "#e33e1a"},
+            "gainDD": {"name": "DD", "color": "#1a1ae3"},
+            "lossDD": {"name": "DD", "color": "#e33e1a"}
+            
+        }
+    }
+    
+},
+
+
+{
+    "type": "longrange",
+    "name": "Active",
+    "filename": "washU_interactions_Active.sorted.bed.gz",
+    "options": {
+        "height": 200,
+        "displayMode": "arc",
+        "scoreScale": "fixed",
+        "scoreMax": 1,
+        "scoreMin": 0
+
+    }
+
+
+    
+},
+{
+    "type": "longrange",
+    "name": "Poised",
+    "filename": "washU_interactions_Poised.sorted.bed.gz",
+    "options": {
+        "height": 200,
+        "displayMode": "arc",
+        "scoreScale": "fixed",
+        "scoreMax": 1,
+        "scoreMin": 0
+
+    }
+
+    
+}
+
+]

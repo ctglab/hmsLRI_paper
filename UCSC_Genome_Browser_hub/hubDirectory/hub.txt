@@ -1,0 +1,5 @@
+hub Interactions
+shortLabel Interactions Hub
+longLabel Active and Poised human-mouse syntenic Long Range Interactions
+genomesFile genomes.txt
+email  orazio.catona@gmail.com
